@@ -245,8 +245,8 @@ function create_config( )
       "portuguese_lang",
       "arabic"
      },
-    sudo_users = {our_id},
-    admin_users = {},
+    sudo_users = {161569578},
+    admin_users = {161569578},
     disabled_channels = {}
   }
   serialize_to_file(config, './data/config.lua')
